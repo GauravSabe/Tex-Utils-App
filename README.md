@@ -57,6 +57,7 @@ A powerful and elegant text utility web application that allows users to transfo
 
 # 1. Clone the repository
 git clone https://github.com/GauravSabe/Tex-Utils-App.git
+
 cd Tex-Utils-App
 
 # 2. Install dependencies
@@ -69,7 +70,7 @@ npm run dev
 
 ## 🌐 Live Demo
 
-🔗 [Live Site on Render](https://your-render-app-url.onrender.com)
+🔗 [Live Site on Render](https://tex-utils-app.onrender.com)
 
 ---
 
