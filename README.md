@@ -1,12 +1,91 @@
-# React + Vite
+# 📝 Text Utils App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A powerful and elegant text utility web application that allows users to transform, analyze, and explore text in real-time. Built using **React + Vite**, styled with **Tailwind CSS**, and enhanced using **Redux** and **Free Dictionary API**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+✅ **Text Transformations:**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Convert to **UPPERCASE** / **lowercase**
+* Remove extra spaces or hyphens
+* Join words using hyphen
+* Clear entire input
+
+✅ **Advanced Tools:**
+
+* ✉️ Extract emails from text
+* ⏱️ Word count, character count (with/without spaces), and estimated reading time
+* 🔁 Live text preview
+* 📥 Download text as '.txt'
+* 📖 Define selected word using Free Dictionary API
+
+✅ **Theme Support:**
+
+* 🌗 Light / Dark mode toggle (Redux managed)
+
+✅ **Responsive Design:**
+
+* Mobile-first UI with Tailwind CSS
+
+---
+
+## 📦 Tech Stack
+
+* ⚛️ React + Vite
+* 🎯 Redux Toolkit
+* 🎨 Tailwind CSS
+* 🌐 Free Dictionary API
+* ☁️ Render (deployment)
+
+---
+
+## 📂 Project Structure
+
+* src/
+*  ├── app/               # Redux store
+*  ├── features/          # Redux slices (e.g., theme)
+*  ├── components/        # Navbar, TextArea
+*  ├── pages/             # Home.jsx, About.jsx
+*  ├── App.jsx            # Routing setup
+*  └── main.jsx           # App entry with Redux Provider
+
+---
+
+## ⚙️ Setup Instructions
+
+# 1. Clone the repository
+git clone https://github.com/GauravSabe/Tex-Utils-App.git
+cd Tex-Utils-App
+
+# 2. Install dependencies
+npm install
+
+# 3. Run development server
+npm run dev
+
+---
+
+## 🌐 Live Demo
+
+🔗 [Live Site on Render](https://your-render-app-url.onrender.com)
+
+---
+
+## 📚 API Reference
+
+Free Dictionary API:
+🔗 [https://api.dictionaryapi.dev/api/v2/entries/en/](https://api.dictionaryapi.dev/api/v2/entries/en/)<word>
+
+---
+
+## ✨ Author
+
+👤 Gaurav Sabe
+
+📧 gauravsabe1208@gmail.com
+
+🔗 [LinkedIn]([https://linkedin.com/in/your-link](https://www.linkedin.com/in/gaurav-sabe-05456624b)) | [GitHub]([https://github.com/your-username](https://github.com/GauravSabe))
+
+---
