@@ -86,6 +86,6 @@ Free Dictionary API:
 
 📧 gauravsabe1208@gmail.com
 
-🔗 [LinkedIn]([https://linkedin.com/in/your-link](https://www.linkedin.com/in/gaurav-sabe-05456624b)) | [GitHub]([https://github.com/your-username](https://github.com/GauravSabe))
+🔗 [LinkedIn](https://www.linkedin.com/in/gaurav-sabe-05456624b) | [GitHub](https://github.com/GauravSabe)
 
 ---
